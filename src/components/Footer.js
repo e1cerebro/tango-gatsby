@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
  
-const Header = () => {
+const Footer = () => {
   return (
     <div>
       
@@ -9,6 +9,6 @@ const Header = () => {
   );
 }
  
-Header.propTypes = {};
+Footer.propTypes = {};
  
-export default Header;
+export default Footer;

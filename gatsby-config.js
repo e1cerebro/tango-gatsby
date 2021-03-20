@@ -28,6 +28,29 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        url: `http://tangogatsby.local/graphql`,
+      },
+    },
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Teko`,
+            variants: ['200', '400', '500', '600', '700'],
+            subsets: [`latin`],
+          },
+          {
+            family: `Open Sans`,
+            variants: [`400`, `700`]
+          },
+        ],
+      },
+    },
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

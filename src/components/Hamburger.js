@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
  
-const Header = () => {
+const Hamburger = () => {
   return (
     <div>
       
@@ -9,6 +9,6 @@ const Header = () => {
   );
 }
  
-Header.propTypes = {};
+Hamburger.propTypes = {};
  
-export default Header;
+export default Hamburger;
